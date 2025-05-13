@@ -1,0 +1,45 @@
+import pygame
+import tkinter as tk
+from PIL import Image, ImageTk
+from tkinter import filedialog
+
+
+correct_code = "5683"
+
+class Room:
+    def __init__(self):
+        pass
+class Window:
+    def __init__(self):
+
+    def setup_gui(self):
+        self.main_frame = tk.Frame(self.root)
+        self.main_frame.pack(padx=10, pady=10)
+
+print("Hi player")
+
+print("what's your name?")
+name = input("> ")
+
+if name:
+    print(f"Hello {name}")
+else:
+    print("You must insert your name")
+
+while vars:
+    vars = False
+
+while True:
+    decision = input("> ")
+
+    if decision == "y":
+        print("you said yes")
+    if decision == "n":
+        print("you said no")
+    else:
+        break
+
+
+def __init__(self, master):
+    self.master = master
+    self.setup_gui()
